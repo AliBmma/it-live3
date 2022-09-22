@@ -1,0 +1,31 @@
+body{height: 2000px;}
+
+.text1{text-align: center;}
+.text1{margin-top: -10cm; color: aliceblue;}
+
+.text1{font-family: 'Noto Naskh Arabic', serif;}
+
+.text1{font-size: 2cm;}
+
+@media (max-width:800px){.text1{font-size: 40px; margin-top: -8cm;}}
+
+
+
+
+
+.text1{
+    
+   
+    position: relative;
+    animation-name: text1;
+    animation-duration: 4s;
+    animation-direction: reverse;  
+  }
+  
+  @keyframes text1 {
+    0%   { left:0px; top:0px;}
+    25%  { left:0px; top:100px;}
+    50%  { left:0px; top:100px;}
+    75%  { left:0px; top:0px;}
+    100% { left:0px; top:0px;}
+  }
